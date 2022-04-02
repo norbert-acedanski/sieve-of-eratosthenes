@@ -8,7 +8,7 @@ Python 3.8.0
 
 # Getting started
 
-### Working with document-statistics:
+### Working with sieve-of-eratosthenes:
 1. Call *primes_less_than* function with desired limit number.
 2. The result should be printed in the terminal.
 
