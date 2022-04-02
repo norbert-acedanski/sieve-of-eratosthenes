@@ -1,7 +1,7 @@
 # sieve-of-eratosthenes
 
 # About The Project
-Script provides one of the ways of finding primes with a sieve of eratosthenes.
+Script provides one of the ways of finding primes with a sieve of Eratosthenes.
 
 # Built With
 Python 3.8.0
