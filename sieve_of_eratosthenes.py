@@ -11,7 +11,7 @@ def primes_less_than(limit_number: int) -> list:
     for number in range(2, math.isqrt(limit_number)):
         if numbers_list[number] == None:
             numbers_list[number] = True
-            for multiple in range(number + number, limit_number, number):
+            for multiple in range(number**2, limit_number, number):
                 numbers_list[multiple] = False
     for number in range(math.isqrt(limit_number) + 1, limit_number):
         if numbers_list[number] == None:
