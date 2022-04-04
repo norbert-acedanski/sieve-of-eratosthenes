@@ -3,8 +3,7 @@ import math
 
 def primes_less_than(limit_number: int) -> list:
     if limit_number <= 2:
-        print("Input number greater than 2!")
-        sys.exit()
+        raise ValueError("Input number greater than 2!")
     numbers_list = [None]*limit_number
     numbers_list[0] = False
     numbers_list[1] = False
