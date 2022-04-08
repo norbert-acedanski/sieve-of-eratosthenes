@@ -1,4 +1,3 @@
-import sys
 import math
 
 def primes_less_than(limit_number: int) -> list:
