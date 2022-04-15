@@ -4,7 +4,7 @@
 Script provides one of the ways of finding primes with a sieve of Eratosthenes.
 
 # Built With
-Python 3.8.0
+Python 3.9.10
 
 # Getting started
 
